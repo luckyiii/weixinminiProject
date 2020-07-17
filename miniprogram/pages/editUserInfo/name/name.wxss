@@ -1,0 +1,4 @@
+/* miniprogram/pages/editUserInfo/name/name.wxss */
+.name{margin-top: 30rpx;height: 50rpx;margin-left: 10rpx;}
+.name input{border: 1px #CCC solid;}
+.name button{font-family: "宋体";margin-bottom: 10rpx;}

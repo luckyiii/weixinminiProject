@@ -1,0 +1,3 @@
+/* miniprogram/pages/editUserInfo/weixin/weixin.wxss */
+.weixinNumber input{border: 1px #CCC solid;margin-top: 30rpx;height: 50rpx;}
+.weixinNumber button{margin-top: 20rpx;}

@@ -1,0 +1,2 @@
+<!--components/weixinCopyText/weixinCopyText.wxml-->
+<text class="iconfont iconcopy" bindtap="handleCopyText"></text>

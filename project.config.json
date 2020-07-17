@@ -1,0 +1,158 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"appid": "wx7d0bb93877839973",
+	"projectname": "miaomiao",
+	"libVersion": "2.11.3",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/user/user",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/editUserInfo/editUserInfo",
+					"pathName": "pages/editUserInfo/editUserInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/editUserInfo/signature/signature",
+					"pathName": "pages/editUserInfo/signature/signature",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/editUserInfo/name/name",
+					"pathName": "pages/editUserInfo/name/name",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/editUserInfo/phone/phone",
+					"pathName": "pages/editUserInfo/phone/phone",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/editUserInfo/location/location",
+					"pathName": "pages/editUserInfo/location/location",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/editUserInfo/editUserInfo",
+					"pathName": "pages/editUserInfo/editUserInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/detail/detail",
+					"pathName": "pages/detail/detail",
+					"query": "userId=2dddb6b55f0f104400443bfd7241b5d0",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/detail/detail",
+					"pathName": "pages/detail/detail",
+					"query": "userId= 5d0327505f0dc653003fffb453fda7e0",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/detail/detail",
+					"pathName": "pages/detail/detail",
+					"query": "userId=5d0327505f0dc653003fffb453fda7e0",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/message/message",
+					"pathName": "pages/message/message",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/near/near",
+					"pathName": "pages/near/near",
+					"scene": null
+				}
+			]
+		}
+	}
+}

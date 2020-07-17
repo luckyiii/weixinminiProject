@@ -1,0 +1,5 @@
+<!--miniprogram/pages/editUserInfo/phone/phone.wxml-->
+<view class="phone">
+  <input type="number" value="{{phoneNumber}}" bindinput="setNumber"></input>
+  <button bindtap="handleNumber">设置手机号</button>
+</view>

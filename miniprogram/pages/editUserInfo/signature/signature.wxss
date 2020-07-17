@@ -1,0 +1,3 @@
+/* miniprogram/pages/editUserInfo/signature/signature.wxss */
+.signature-box{border: 1px #CCC solid;margin: 30rpx auto;}
+button{font-family: "宋体";}

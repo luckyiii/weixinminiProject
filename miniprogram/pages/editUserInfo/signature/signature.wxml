@@ -1,0 +1,6 @@
+<!--miniprogram/pages/editUserInfo/signature/signature.wxml-->
+<view class="signature">
+  <textarea class="signature-box" value="{{signature}}" bindinput="handleText"></textarea>
+  <button bindtap="handleBtn">提交个性签名</button>
+</view>
+

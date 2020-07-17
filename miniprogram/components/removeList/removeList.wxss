@@ -1,0 +1,5 @@
+/* components/removeList/removeList.wxss */
+.area{width: 95%;height: 100rpx;margin: 20rpx;position: relative;border-bottom: 1px #CCC dashed;}
+.view{width: 85%;height: 100rpx;position: absolute;line-height: 100rpx;text-indent: 20rpx;left: 150rpx;top: 0;z-index: 2;background-color: white;}
+image{width: 100rpx;height: 100rpx;border-radius: 50%;position: absolute;left: 0;top: 0;z-index: 1;}
+.delete{width: 100rpx;height: 100rpx;background-color: red;color: white;position: absolute;right: 0;top: 0;z-index: 1;text-align: center;line-height: 100rpx;}

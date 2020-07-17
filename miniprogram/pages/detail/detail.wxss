@@ -1,0 +1,5 @@
+/* miniprogram/pages/detail/detail.wxss */
+.detail-item{margin: 20rpx;border-bottom: 1px #CCC dashed;display: flex;align-items: center;padding: 20rpx;}
+.detail-item image{width: 100rpx;height: 100rpx;border-radius: 50%;}
+.onlyFriend{color: red;}
+.empty{color: rgb(194, 194, 194);font-size: 23rpx;}

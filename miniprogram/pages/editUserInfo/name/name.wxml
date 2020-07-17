@@ -1,0 +1,6 @@
+<!--miniprogram/pages/editUserInfo/name/name.wxml-->
+<view class="name">
+  <input type="text" value="{{nickName}}" bindinput="handleName"></input>
+<button bindtap="submitBtn">自定义昵称</button>
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">使用微信昵称</button>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "call-phone": "../../components/callPhone/callPhone",
+    "copy-weixin":"../../components/weixinCopyText/weixinCopyText"
+  }
+}

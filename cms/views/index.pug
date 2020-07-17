@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title
+    |     
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    |     
+    script(src='https://unpkg.com/axios/dist/axios.min.js')
+  |   
+  body
+    h1 &#x55B5;&#x55B5;&#x4EA4;&#x53CB;-CMS&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;
+    |     
+    label(for='')
+      | &#x4E0A;&#x4F20;&#x56FE;&#x7247;&#xFF1A;
+      input#uploadBtn(type='file')
+    |     
+    script.
+      var uploadBtn = document.getElementById('uploadBtn');
+      uploadBtn.onchange = function(ev){
+      var file = ev.target.files[0];
+      var param = new FormData();
+      param.append('file' , file);
+      var config = {
+      headers : {
+      'Content-Type' : 'multipart/form-data'
+      }
+      };
+      axios.post('/uploadBannerImg',param , config).then((res)=>{
+      console.log( res.data );
+      });
+      };
